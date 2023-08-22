@@ -8,6 +8,7 @@ body{
     margin: 0;
     padding: 0;
 }
+/* this is NAV section */
 nav{
     font-family: 'Ubuntu', sans-serif;
 }
@@ -33,21 +34,67 @@ nav ul li{
     font-size: 1.3rem;
 }
 .container{
-    min-height:75vh;
+    min-height:72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius:12px ;
+    padding: 43px;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 .bottom{
     position:sticky;
     height: 130px;
     background-color: black;
     color: white;
-    bottom: 0%;
+    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+
+}
+.icons{
+    margin-top: 14px;
+
+}
+.icons i{
+    cursor: pointer;
 }
 
 #myProgressBar{
     width: 80vw;
     text-align: center;
+
+}
+.songItem{
+    height: 50px;
+    display: flex ;
+    /* flex-direction: row-reverse; padding-right: 18px;*/
+    background-color: white;
+    width: 80%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius:44px;
+
+}
+.songItem img {
+    width: 37px;
+    margin: 0 23px 0;
+    border-radius: 34px;
+}
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+    cursor: pointer;
 
 }

@@ -3,4 +3,4 @@
 
 
 
-Video current playing = 28:20 
+Video current playing = 45:30 
