@@ -1,6 +1,6 @@
 # spotify.clone
 
+font-family: 'Varela Round', sans-serif;
 
 
-
-Video current playing = 45:30 
+Video current playing = 1:00:10
